@@ -126,7 +126,6 @@ import { recursiveReadDir } from '../lib/recursive-readdir'
 import {
   loadBindings,
   lockfilePatchPromise,
-  loadBindings,
   teardownTraceSubscriber,
   teardownHeapProfiler,
   createDefineEnv,
