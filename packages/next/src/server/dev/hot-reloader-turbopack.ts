@@ -429,7 +429,7 @@ export async function createHotReloaderTurbopack(
 
         currentEntrypoints,
 
-        currentEntryIssues: currentEntryIssues,
+        currentEntryIssues,
         manifestLoader,
         nextConfig: opts.nextConfig,
         rewrites: opts.fsChecker.rewrites,
